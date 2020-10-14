@@ -14,7 +14,7 @@ function Footer() {
 
            <div 
            className="Footer_TopRight">
-                <h3>2Much-Gh</h3>
+                <h3>2MuchGh</h3>
                 <p>
                 Provides you latest entertainment and hottest trends in Ghana
                 </p>

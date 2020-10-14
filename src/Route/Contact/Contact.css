@@ -1,0 +1,92 @@
+.contact{
+    margin-right: 80px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.contact_head h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    text-decoration: underline;
+    padding-bottom: 30px;
+
+}
+
+.contact_links{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+}
+
+.contact_youtube li{
+    list-style: none;
+}
+
+.contact_youtube li a{
+    text-decoration: none;
+}
+
+
+.contact_facebook li{
+    list-style: none;
+}
+
+.contact_facebook li a{
+    text-decoration: none;
+}
+
+.contact_facebook li a h3{
+    color: rgb(160, 21, 21);
+    font-size: 35px;
+}
+
+.contact-contacts h3{
+    font-size: 20px;
+}
+
+.contact-address{
+    text-align: center;
+}
+
+
+.contact_youtube li a h3{
+    color: rgb(160, 21, 21);
+    font-size: 35px;
+}
+
+@media  (max-width:768px){
+    .contact_links{
+        display: contents;
+    }
+
+    .contact_facebook li a h3{
+        color: rgb(160, 21, 21);
+        font-size: 18px;
+    }
+    
+    
+    .contact_youtube li a h3{
+        color: rgb(160, 21, 21);
+        font-size: 18px;
+    }
+
+    .contact_head h3{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 20px;
+        text-decoration: underline;
+        padding-bottom: 30px;
+    
+    }
+
+    .contact{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+
+

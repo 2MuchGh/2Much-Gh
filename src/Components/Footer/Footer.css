@@ -1,0 +1,201 @@
+.Footer{
+   
+    margin-left: 10px; 
+    margin-right: 10px;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 2px 3px rgba(0,0,0,.13) ,1px 2px 2px rgba(0,0,0,.1) , -1px -2px 2px rgba(0,0,0,.05) ;
+    box-shadow: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(7, 95, 95);
+
+}
+
+.Footer_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer_BFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer_TopRight{
+
+    padding-top: 5px;
+
+}
+.Footer_TopRight h3{
+    text-align: left;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(168, 161, 161);
+}
+
+.Footer_TopRight p{
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(252, 252, 252);
+}
+
+.Footer_TopLeft{
+    margin-right: 10px;
+    padding-top: 5px;
+    margin-top: 10px;
+    
+}
+.Footer_TopLeft a{
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(168, 161, 161);
+    font-weight: 600;
+    border: 2px rgb(218, 215, 215) solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.Footer_TopLeft li{
+    list-style: none;
+}
+
+.footer_catnav{
+    display: flex;    
+}
+
+.Footer_Botoom{
+   
+}
+
+.Footer_navigation{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+
+.Footer_navigation li{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Footer_navigation a{
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 8px;
+    color: rgb(168, 161, 161);
+    border: 2px rgb(219, 207, 207) solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 8px;
+}
+
+.Footer_HomeNav{
+    display: flex;
+    margin-top: 20px;
+}
+
+.Footer_SocialLinks{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.Footer_Facebook{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.Footer_Youtube{
+    margin-bottom: 30px;
+    margin-top: -2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.Footer_Twitter{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Footer_Instagram{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Footer_Logo{
+    margin-top: 40px;
+}
+
+.Footer_Logo a{
+    text-decoration: none;
+}
+
+.Footer_Logo li{
+    list-style: none;
+}
+
+.Footer_Logo h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(235, 235, 235);
+}
+
+
+@media (max-width:768px){
+    .Footer{
+      
+        object-fit: contain;
+        
+        
+    }
+
+    .Footer_flex{
+        display: contents;
+    }
+
+    .Footer_BFlex{
+        display: contents;
+    }
+    .Footer_SocialLinks{
+        object-fit: contain;
+        object-position: center;
+        margin-top: 0px;
+    }
+
+    .footer_catnav{
+        display: inline;
+        padding-top: 10px;
+        
+    }
+.Footer_navigation a{
+    border: none;
+    letter-spacing: 0.1px;
+    padding-right: 0px;
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+.Footer_navigation{
+    margin-left: -12px;
+}
+
+.Footer_HomeNav{
+    margin-top: 0px;
+}
+
+.Footer_Logo{
+    margin-top: 0px;
+
+}
+
+}

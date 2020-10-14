@@ -1,0 +1,49 @@
+.slides .slick-prev,
+.slides .slick-next{
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+.Home_Slider{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.Slider_Image{
+    padding-top: 10px;
+    padding-top: 10px;
+    width: 700px;
+    height: 500px;
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+ 
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}

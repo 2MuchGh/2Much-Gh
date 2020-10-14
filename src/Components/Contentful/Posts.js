@@ -12,8 +12,6 @@ export default function Post(){
   const renderPosts = () => {
     if (isLoading) return <p>Loading...</p>
 
-    console.log(posts);
-
     return posts.map((post,index) => (
 
       <div className="renderpost_content">
